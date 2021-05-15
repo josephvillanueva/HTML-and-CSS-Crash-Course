@@ -24,53 +24,53 @@ Text editors
 
 Tag
 Must have
-* <!DOCTYPE html>
+<!DOCTYPE html>
 
-* <html> </html> - To start html code
+<html> </html> - To start html code
 
 Head Tag
-* <head> </head> - Nothing gets rendered inside the browser
-  * <title> </title> - Name at the tab
+<head> </head> - Nothing gets rendered inside the browser
+  - <title> </title> - Name at the tab
 
 Body Tag
-* <body> </body> - Browser
-* <p> </p> - Paragraph tag
+<body> </body> - Browser
+<p> </p> - Paragraph tag
 
 Local development server > HTTP
 Local server to view website
 
-* <strong> </strong> - bold tag
-* <em> </em> - italic
-* <small> </small> - smaller size
+<strong> </strong> - bold tag
+<em> </em> - italic
+<small> </small> - smaller size
 
 heading tags
-* <h1> </h1> - biggest
-* <h6> </h6> - least important
+<h1> </h1> - biggest
+<h6> </h6> - least important
 
-* <ul> </ul> - unordered list
-  * <li> </li> - list item
+<ul> </ul> - unordered list
+  - <li> </li> - list item
 
-* <ol> </ol> - ordered list (1, 2, 3,...)
+<ol> </ol> - ordered list (1, 2, 3,...)
 
-* <div> </div> - division tag
+<div> </div> - division tag
   - divide into sections
   - elements that belong together
   - would help later on when hooks are applied
 
-* <span> </span> - JS tool for hooks
+<span> </span> - JS tool for hooks
 
-* <br> - line break
+<br> - line break
 
-* <hr> - horizontal rule
+<hr> - horizontal rule
   - separates content
   
-* <img> - image tag
+<img> - image tag
   - needs an attribute
   - <img src="*file*">
   - right click and get RELATIVE path
   - alt="name for screen readers"
 
-* <a> </a> - anchor tag
+<a> </a> - anchor tag
   - <a href="*link*"> </a>
   - href = hyperlink reference
   - styled as a link
@@ -113,6 +113,6 @@ FORM
 required - attribute that needs the input to be filled
 
 
-# CSS
+CSS
 Style Sheet - list of CSS rules/rule sets
 
