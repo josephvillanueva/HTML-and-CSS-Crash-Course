@@ -116,3 +116,12 @@ required - attribute that needs the input to be filled
 CSS
 Style Sheet - list of CSS rules/rule sets
 
+Selectors (div, li, etc.)
+Declarations (what's inside the Selectors)
+
+create a .css file and link it to all the pages that it will be applied in
+  - place in the header
+  - <link rel="stylesheet" href="*insert relative path to the .css file">
+  - google any css style because there are too many to memorize them all
+  - use css websafe fonts
+  
