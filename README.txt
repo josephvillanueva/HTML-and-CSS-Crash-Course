@@ -125,3 +125,93 @@ create a .css file and link it to all the pages that it will be applied in
   - google any css style because there are too many to memorize them all
   - use css websafe fonts
   
+Types of Elementsq
+Inline Elements
+  - Padding is okay but margin is only to the left and right
+  - Padding goes on top of each other
+  - in-line block is better
+
+Block-level Elementsbb
+  - Padding and Margin work just as intended
+  - Margin goes on top of each other
+
+User agent stylesheet - default browser style
+
+Classes and Selectors
+Class
+<p class="error">
+  - to reference in the CSS file, .error
+  - to specify a tag with the class error, p.error
+  - you can place two classes, <p class="error success">
+    - to reference p.error.success
+
+ID
+  - #content{
+    }
+  to reference a certain div
+  - div#content{
+    }
+ 
+Class -> ID
+Javascript -> Class
+ 
+decendent selector
+  -space is key
+  - div .error{}
+  
+  a[href="website"]{}
+    - referencing every anchor tag with the website
+  a[href*="web"]{}
+    - referencing every web link that has the value of 'web'
+  a[href$=".com"]{}
+    - referencing every web link that ENDS with .com
+    
+Cascade
+Inheritance
+  div{
+  margin: 40px;
+  }
+  p
+  {
+  margin: inherit;
+  }
+  
+the recent (or further down) is the one that will be followed
+more specific is the one that will be followed
+
+HTML5 Semantic Tags
+<main>
+  - main content of a webpage
+
+<section>
+  - certain section of a webpage
+  
+<article>
+  - makes up an article
+  
+<aside>
+   - defines content related to soemthing else
+
+<header>
+   - header of a website (title, etc.)
+ 
+<footer>
+   - contact information, etc.
+   
+   
+Position and Layout
+Static - default
+Relative - movement relative to the original position
+Fixed - relative to the view port
+Absoute - relative to the closest parent
+Sticky - mixture of static and fixed
+
+z index
+  -layer
+  -bring forward or backward
+  
+box-sizing
+  -includes the padding
+ 
+white-space:nowrap
+  -fixes the margin and padding spacing
