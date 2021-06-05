@@ -215,3 +215,37 @@ box-sizing
  
 white-space:nowrap
   -fixes the margin and padding spacing
+
+Pseudo classes
+uses " : "
+tags a class
+:hover
+what happens when you hover over with your mouse
+
+:focus
+what happens when you have it selected
+
+:valid
+confirm that it is valid
+
+::first-line
+change everything in the first line
+
+::first-letter
+change the first letter
+
+::selection
+what happens when you highlight or select it
+
+::after
+what you want to inject after
+
+Responsive Design
+Mobile first - prioritize content 
+
+Add this line of code
+<meta name="viewport" content="width=device-width, initial-scale=1.0")>
+
+@media screen and (max-width:1400px){
+}
+
